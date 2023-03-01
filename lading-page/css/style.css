@@ -1,0 +1,45 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classes Gnéricas */
+
+.layout-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid yellow;
+
+}
+/* header */
+
+ header {
+    height: 60px;
+    background-color: #F9003D;
+}
+
+header nav {
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+     border: 3px solid white;
+}
+
+.header-flex {
+
+    justify-content: flex-end;
+    display: flex;    
+}
+
+header nav a {
+    font font-family:sans-serif;
+    color: white;
+    text-decoration: none;
+    text transform: uppercase ;
+    font-size: 18px;
+}
